@@ -98,7 +98,7 @@ public class CreateContactTest extends BaseClass{
 		String contactHeader = cip.getHeaderText();
 		System.out.println(cip.getHeaderText());
 		AssertJUnit.assertTrue(contactHeader.contains(LASTNAME));
-		Reporter.log("header validated sucessfully");  //not shown in messages hence we can understand the part which is failed
+//		Reporter.log("header validated sucessfully");  //not shown in messages hence we can understand the part which is failed
 //		Assert.fail();
 //		//Step 10: logout of application
 //		hp.logoutOfApp(driver);
